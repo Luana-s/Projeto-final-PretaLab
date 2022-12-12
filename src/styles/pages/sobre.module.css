@@ -1,0 +1,29 @@
+.imagem{
+    border-radius: 120px;
+    border: 3px solid rgb(175, 44, 175);
+    height:400px;
+    width:300px;
+    margin: 2% auto;  
+    
+    display: block;    
+}
+.texto{
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;  
+}
+
+.name{
+    text-align:center ;
+    color: rgb(206, 14, 104);
+    font-size: 3rem;  
+}
+.card{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 189, 219);
+}
+
+    
+  
