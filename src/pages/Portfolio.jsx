@@ -4,7 +4,6 @@ import homeImg from '../assets/portfolio.svg'
 
 import styles from '../styles/pages/portfolio.module.css'
 
-import Axios from 'axios'
 export function Portfolio(){
     const [repositorios, setRepositorios] = useState([])
 
