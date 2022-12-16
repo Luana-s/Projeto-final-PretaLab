@@ -1,7 +1,7 @@
 import { useEffect, useState} from 'react'
 import { Header } from '../components/Header'
 import homeImg from '../assets/portfolio.svg'
-import luanaImg from '../assets/Luana.svg'
+
 import styles from '../styles/pages/portfolio.module.css'
 
 import Axios from 'axios'
@@ -18,7 +18,7 @@ export function Portfolio(){
         return(
         <>
 
-        <Header text="Meu Portfolio✔️" image={luanaImg}/>
+        <Header text="Meu Portfolio✔️" image={homeImg}/>
 
         <u>
             {repositorios.map(repository =>{

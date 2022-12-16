@@ -4,7 +4,7 @@
     height:400px;
     width:300px;
     margin: 2% auto;  
-    
+    box-shadow: 10px 10px 5px rgb(39, 17, 17); 
     display: block;    
 }
 .texto{
