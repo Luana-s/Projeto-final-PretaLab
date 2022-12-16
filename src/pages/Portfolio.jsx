@@ -24,7 +24,7 @@ export function Portfolio(){
                 return(
                     <li>
                         <h2>{repository.name}</h2>
-                        <p>{repository.descrption}</p>
+                        <p>{repository.description}</p>
 
                     </li>
                 )
