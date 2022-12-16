@@ -1,0 +1,89 @@
+.botao{
+    background: #9e949e;
+    color:aliceblue;
+    
+  
+	
+	
+	border-color: #383537;
+	height: 40px;
+	width: 4rem;
+    box-shadow: 5px 5px 5px rgb(39, 17, 17);   
+}
+.card{
+    background-color:#d7badf;
+    margin: 1% auto;
+    border: 2px solid; 
+    text-align: center; 
+    justify-items: auto; 
+     
+}
+
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+     
+}
+.cardProjeto1{
+   background-color:  rgb(204, 142, 188);
+    border-radius: 5px;
+ 
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  
+ 
+  
+  
+  box-shadow: 10px 5px 5px rgb(39, 17, 17);  
+  
+}
+h4{
+    color: rgb(110, 17, 110);
+}
+.paragrafo{
+    color: rgb(56, 54, 51);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+    
+    
+    
+    
+   
+    
+
+
+
+.cardProjeto2{
+    background-color:  rgb(204, 142, 188);
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+   
+ 
+    box-shadow: 10px 5px 5px rgb(39, 17, 17);  
+
+}
+
+.cardProjeto3{
+    background-color:  rgb(204, 142, 188);
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    box-shadow: 10px 5px 5px rgb(39, 17, 17);  
+
+}
+

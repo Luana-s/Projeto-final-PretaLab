@@ -14,7 +14,8 @@ export function Router() {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/sobre" element={<Sobre />} />
-        <Route path="/portfolio" element={<Portfolio/>} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        
         <Route path="/contato" element={<Contato />} />
       </Routes>
       <Footer />
