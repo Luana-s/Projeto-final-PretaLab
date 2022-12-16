@@ -1,6 +1,7 @@
 import { useEffect, useState} from 'react'
 import { Header } from '../components/Header'
 import homeImg from '../assets/portfolio.svg'
+import luanaImg from '../assets/Luana.svg'
 import styles from '../styles/pages/portfolio.module.css'
 
 import Axios from 'axios'
@@ -8,7 +9,7 @@ export function Portfolio(){
     const [repositorios, setRepositorios] = useState([])
 
     useEffect(() => {
-        fetch("https://api.github.com/users/paulaeliege/repos")
+        fetch("https://api.github.com/users/Luana-s/repos")
         .then(response => response.json())
         .then(Data => setRepositorios)
     }, [])
@@ -17,7 +18,7 @@ export function Portfolio(){
         return(
         <>
 
-        <Header text="Meu Portfolio✔️" image={homeImg} />
+        <Header text="Meu Portfolio✔️" image={luanaImg}/>
 
         <u>
             {repositorios.map(repository =>{
@@ -34,7 +35,7 @@ export function Portfolio(){
 
         <section>
             <div className={styles.card}>
-                <h2 className={styles.title}>Projetos</h2>
+                <h2 className={styles.title}>Projetos </h2>
                 <br/>
                 <br/>
                 <div className={styles.cardProjeto1}>
